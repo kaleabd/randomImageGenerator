@@ -11,7 +11,7 @@ const options = {
       second: "2-digit"
     };
 
-const time = new Date().toLocaleTimeString("en-US",options);
+var time = new Date().toLocaleTimeString("en-US",options);
 
 timer.innerHTML = `${time}`
 form.addEventListener("click", function(event) {
