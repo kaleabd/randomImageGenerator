@@ -87,7 +87,7 @@ body {
 
 .footer h2 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .footer h4 {
@@ -104,7 +104,7 @@ body {
     }
     .footer h2 {
         text-align: center;
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .button-holder form {
         display: inline-flex;
