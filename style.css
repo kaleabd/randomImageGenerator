@@ -81,4 +81,11 @@ h2:active {
     .container h1 {
         font-size: 3rem;
     }
+        .footer {
+        padding: 1rem 1rem;
+    }
+    .footer h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
 }
