@@ -3,11 +3,17 @@ const timer = document.querySelector('#timer')
 const form = document.querySelector('.setSize')
 const generateImage = document.querySelector('#getImage')
 
-var d = new Date();
-var hour = d.getHours();
-var minute = d.getMinutes();
+const options = {
+       timeZone:"Africa/Accra",
+       hour12 : true,
+       hour:  "2-digit",
+       minute: "2-digit",
+      second: "2-digit"
+    };
 
-timer.innerHTML = `${hour} : ${minute}`
+const time = new Date().toLocaleTimeString("en-US",options);
+
+timer.innerHTML = `${time}`
 form.addEventListener("click", function(event) {
     event.preventDefault();
     var imageWidth = document.querySelector('#imageWidth').value
